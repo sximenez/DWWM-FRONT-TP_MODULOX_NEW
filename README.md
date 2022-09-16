@@ -1,4 +1,4 @@
-Rendu : https://sximenez.github.io/DWWM-FRONT-TP_MODULOX/
+Rendu : https://sximenez.github.io/DWWM-FRONT-TP_MODULOX_2/
 
 Les objectifs : 
 1. A partir du TP Modulox, faire un cycle de développement client (recherche, modèle, wireframe, maquette, prototype)
