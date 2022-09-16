@@ -35,6 +35,12 @@
   height: 90%;
 }
 
+@media (min-width: 1024px) {
+  .lg\:h-75vh {
+    height: 75vh;
+  }
+}
+
 .roboto {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
 }

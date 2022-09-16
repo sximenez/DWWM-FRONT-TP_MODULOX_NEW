@@ -1,9 +1,7 @@
 Rendu : https://sximenez.github.io/DWWM-FRONT-TP_MODULOX/
 
 Les objectifs : 
-1. Réaliser une page d'accueil depuis un modèle donné en pdf
-2. Réaliser un menu hamburger
-3. Eventuellement faire un cycle de développement client (recherche, modèle, wireframe, maquette, prototype)
+1. A partir du TP Modulox, faire un cycle de développement client (recherche, modèle, wireframe, maquette, prototype)
 
 Librairies :
 1. Google Fonts pour la police Roboto 
@@ -11,6 +9,5 @@ Librairies :
 3. Font Awesome pour les icônes
 
 Commentaires :
-1. Ok mobile first, plus facile de réaliser ensuite les versions tablette et desktop
-2. Utiliser Flexbox pour plus de responsiveness
-3. Menu hamburger à venir
+1. Pour avoir un site uniforme, définir un margin horizontal commun à tous les blocs
+2. Définir un padding vertical commun à tous les blocs

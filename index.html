@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/b67aea6e6e.js" crossorigin="anonymous"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Modulox - Fabricant de robots de surveillance</title>
@@ -16,28 +16,24 @@
 
 <body class="roboto">
   <!---------------------------- TOP ---------------------------->
-  <header class="h-screen">
+  <header class="h-screen bg-black">
 
     <!---------------------------- TOP NAV ---------------------------->
     <nav id="top-nav" class="flex flex-row align-items justify-between h-1-10 mx-4 md:mx-16 lg:mx-44">
 
       <div id="top-logo" class="flex align-items">
 
-        <img width="150px" class="object-contain" src="images/cropped-logo_modulox.png" alt="Logo de la société Modulox">
+        <img width="150px" class="object-contain" src="images/logo_inverse.png" alt="Logo de la société Modulox">
 
       </div>
 
-      <div id="top-menu" class="w-full my-auto uppercase list-none hidden lg:block">
+      <div id="top-menu" class="w-full my-auto uppercase list-none hidden lg:block text-white">
 
         <div class="flex flex-row justify-end gap-x-6">
         
           <a href="" class="hover:underline"><li>Accueil</li></a>
           <a href="" class="hover:underline"><li>Boutique</li></a>
           <a href="" class="hover:underline"><li>A propos</li></a>
-          <a href="" class="hover:underline"><li>Actualités</li></a>
-          <a href="" class="hover:underline"><li>Panier</li></a>
-          <a href="" class="hover:underline"><li>Mon compte</li></a>
-          <a href="" class="hover:underline"><li>Boutique</li></a>
           <a href="" class="hover:underline"><li>Contact</li></a>
 
         </div>
@@ -46,39 +42,27 @@
 
       <div class="flex items-center mx-4">
             
-        <a href=""><i class="fa-solid fa-bars fa-2xl text-black lg:hidden block"></i></a>
+        <a href=""><i class="fa-solid fa-bars fa-2xl text-white lg:hidden block"></i></a>
       
       </div>
 
     </nav>
 
     <!---------------------------- TOP BACKGROUND IMAGE ---------------------------->
-    <div id="top-background" class="h-6-10 overflow-hidden relative">
+    <div id="top-background" class="h-9-10 overflow-hidden relative">
 
-      <img class="w-full h-full object-cover" src="images/banner.jpg" alt="">
+      <img src="images/pexels-lynde-4243877.jpg" alt="Notre dernier produit de la gamme" class="w-full h-full object-cover brightness-50">
+      <!--<video src="images/production ID_3764259.mp4" autoplay loop muted class="brightness-50 object-cover w-full h-full"></video>-->
 
       <!---------------------------- TOP CTA ---------------------------->
-      <div id="top-cta" class="w-1/2 lg:w-full absolute top-10 md:top-32 text-white mx-4 md:mx-16 lg:mx-44">
+      <div id="top-cta" class="absolute top-2/4 -translate-y-1/2 text-white mx-4 md:mx-16 lg:mx-44 text-center lg:text-left">
 
         <h1 class="text-6xl font-semibold">Panacotron M1000 GT</h1>
-        <h2 class="text-xl font-medium py-4">LA référence du robot de surveillance</h2>
+        <h2 class="text-xl font-medium pt-2 pb-8">LA référence du robot de surveillance</h2>
 
         <a href="#">
-          <button class="bg-cyan-400 hover:bg-cyan-800 py-4 px-10 rounded-lg" type="submit">Je découvre</button>
+          <button class="bg-blue-700 hover:bg-blue-500 py-4 px-10 rounded-lg" type="submit">Je découvre</button>
         </a>
-
-      </div>
-
-    </div>
-
-    <!---------------------------- TOP ABOUT ---------------------------->
-    <div class="bg-black h-3-10 text-white flex flex-col">
-
-      <div class="mx-4 md:mx-16 lg:mx-44 my-auto">
-      
-        <h3 class="text-2xl font-semibold pb-2">A propos</h3>
-        <p class="text-lg lg:text-xl">La société Modulox® est le constructeur et distributeur exclusif en France
-        <br><br>d'une gamme de trois modèles de robots de surveillance nommés Panacotrons©.</p>
 
       </div>
 
@@ -86,19 +70,33 @@
 
   </header>
 
+  <!---------------------------- TOP PARTNERS ---------------------------->
+    <div class="bg-stone-100">
+  
+      <div class="grid grid-cols-2 grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 lg:mx-16 lg:place-content-between lg:h-auto">
+
+        <img src="images/asgardia.png" class="p-8 md:mx-auto md:p-4 md:w-1/2 lg:w-full lg:h-full lg:px-28" alt="">
+        <img src="images/cod-lab.png" class="p-8 md:mx-auto md:p-4 md:w-1/2 lg:w-full lg:h-full lg:px-28" alt="">
+        <img src="images/kyan.png" class="p-8 md:mx-auto md:p-4 md:w-1/2 lg:w-full lg:h-full lg:px-28" alt="">
+        <img src="images/velocity9.png" class="p-8 md:mx-auto md:p-4 md:w-1/2 lg:w-full lg:h-full lg:px-28" alt="">
+
+      </div>
+
+  </div>
+
   <!---------------------------- SECTION PRODUCTS ---------------------------->
-  <section class="bg-stone-100 pb-10">
+  <section class="bg-black text-white">
     
     <!---------------------------- MARGIN ---------------------------->
-    <div class="mx-4 md:mx-12 lg:mx-44">
+    <div class="md:mx-12 lg:mx-44 pt-20 lg:py-20">
     
       <!---------------------------- PRODUCTS ---------------------------->
-      <div class="flex font-semibold h-64 text-center">
+      <div class="flex justify-center font-semibold pb-20 text-center">
       
-        <div class="m-auto">
+        <div class="my-auto mx-4 lg:mx-44">
 
-          <h4 class="text-4xl pb-2">Découvrez notre gamme de robots</h4>
-          <p class="text-lg lg:text-xl">Consultez notre gamme de robots professionnels de sécurité et de surveillance</p>
+          <h4 class="text-4xl pb-2">Nos robots</h4>
+          <p class="text-lg lg:text-xl">Professionnels, de sécurité et de surveillance</p>
 
         </div>
 
@@ -107,20 +105,19 @@
       <div class="flex flex-col md:flex-row justify-center items-center">
 
         <!---------------------------- PRODUCT 1 ---------------------------->
-        <div id="product-card" class="flex flex-col items-center pb-10 my-10 md:mt-0 mx-14 md:mx-4 lg:mx-20 bg-white border border-solid border-gray-300">
+        <div id="product-card" class="w-full flex flex-col items-center pb-10 mb-10 md:mt-0 md:mx-4 lg:mb-0 lg:pb-0">
 
-          <div id="product-card-top" class="flex items-center w-full relative bottom-6 left-4 bg-white border border-solid border-gray-300 shadow-xl hover:scale-110 transition ease-in delay-75">
+          <div id="product-card-top" class="flex items-center h-80 hover:scale-110 transition ease-in delay-75">
 
-            <img src="images/modulox-m1000-gt-230x288.png" alt="Modèle Modulox numéro 1">
+            <img class="h-full object-cover" src="images/pexels-kamp-ve-enduro-11829001.jpg" alt="Modèle Modulox numéro 1">
 
           </div>
 
-          <div id="product-card-bottom" class="text-center">
+          <div id="product-card-bottom" class="text-center pt-10">
 
-            <p class="uppercase text-red-500">Robots</p>
-            <p class="text-lg font-bold py-2">Panacotron M1000<br>GT</p>
+            <p class="text-4xl font-bold py-4"><span class="hidden">Panacotron</span> M1000 GT</p>
 
-            <div class="flex justify-between items-center">
+            <div class="flex flex-col gap-y-4 justify-between items-center">
 
               <p>1136,00 EUR</p>
               <i class="fa-solid fa-cart-shopping"></i>
@@ -132,20 +129,19 @@
         </div>
 
         <!---------------------------- PRODUCT 2 ---------------------------->
-        <div id="product-card" class="flex flex-col items-center pb-10 my-10 md:mt-0 mx-14 md:mx-4 lg:mx-20 bg-white border border-solid border-gray-300">
+        <div id="product-card" class="w-full flex flex-col items-center pb-10 mb-10 md:mt-0 md:mx-4 lg:mb-0 lg:pb-0">
 
-          <div id="product-card-top" class="flex items-center w-full relative bottom-6 left-4 bg-white border border-solid border-gray-300 shadow-xl hover:scale-110 transition ease-in delay-75">
+          <div id="product-card-top" class="flex items-center h-80 hover:scale-110 transition ease-in delay-75">
 
-            <img src="images/modulox-m2000-st-230x288.png" alt="Modèle Modulox numéro 2">
+            <img class="h-full object-cover" src="images/pexels-geometric-photography-12975476.jpg" alt="Modèle Modulox numéro 1">
 
           </div>
 
-          <div id="product-card-bottom" class="text-center">
+          <div id="product-card-bottom" class="text-center pt-10">
 
-            <p class="uppercase text-cyan-500">Robots</p>
-            <p class="text-lg font-bold py-2">Panacotron M2000<br>ST</p>
+            <p class="text-4xl font-bold py-4"><span class="hidden">Panacotron</span> M2000 ST</p>
 
-            <div class="flex justify-between items-center">
+            <div class="flex flex-col gap-y-4 justify-between items-center">
 
               <p>2225,00 EUR</p>
               <i class="fa-solid fa-cart-shopping"></i>
@@ -156,21 +152,20 @@
 
         </div>
 
-         <!---------------------------- PRODUCT 3 ---------------------------->
-         <div id="product-card" class="flex flex-col items-center pb-10 my-10 md:mt-0 mx-14 md:mx-4 lg:mx-20 bg-white border border-solid border-gray-300">
+        <!---------------------------- PRODUCT 3 ---------------------------->
+        <div id="product-card" class="w-full flex flex-col items-center pb-10 mb-10 md:mt-0 md:mx-4 lg:mb-0 lg:pb-0">
 
-          <div id="product-card-top" class="flex items-center w-full relative bottom-6 left-4 bg-white border border-solid border-gray-300 shadow-xl hover:scale-110 transition ease-in delay-75">
+          <div id="product-card-top" class="flex items-center h-80 hover:scale-110 transition ease-in delay-75">
 
-            <img src="images/modulox-m3000-pan-230x288.png" alt="Modèle Modulox numéro 3">
+            <img class="h-full object-cover" src="images/pexels-david-mielimonka-8441677.jpg" alt="Modèle Modulox numéro 1">
 
           </div>
 
-          <div id="product-card-bottom" class="text-center">
+          <div id="product-card-bottom" class="text-center pt-10">
 
-            <p class="uppercase text-purple-500">Robots</p>
-            <p class="text-lg font-bold py-2">Panacotron M3000<br>PAN</p>
+            <p class="text-4xl font-bold py-4"><span class="hidden">Panacotron</span> M3000 PAN</p>
 
-            <div class="flex justify-between items-center">
+            <div class="flex flex-col gap-y-4 justify-between items-center">
 
               <p>2225,00 EUR</p>
               <i class="fa-solid fa-cart-shopping"></i>
@@ -187,63 +182,67 @@
 
   </section>
 
-  <!---------------------------- SECTION ARTICLES ---------------------------->
-  <section class="lg:pb-10">
+  <!---------------------------- SECTION SERVICES ---------------------------->
+  <section>
 
-    <!---------------------------- NEWSLETTER ---------------------------->
-    <div style="background-image: url(images/bg_contact.jpg); background-position: center;" class="flex justify-center font-normal h-80 text-center">
-        
-      <div class="my-auto mx-4 md:mx-16 lg:mx-44 text-white">
+    <div class="flex font-normal relative h-96 lg:h-auto">
 
-        <h4 class="text-4xl pb-2">Abonnez-vous à notre newsletter</h4>
-        <p class="text-lg lg:text-xl pb-4 lg:pb-8">Recevez les mises à jour instantanément</p>
+      <video src="images/production ID_3764259.mp4" autoplay loop muted class="brightness-50 object-cover w-full h-full"></video>
+          
+        <div class="m-0 text-white text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full md:w-2/3">
+          
+          <div class="mx-4 md:mx-12 lg:mx-44">
+          
+            <h4 class="text-4xl pb-2">Abonnez-vous à notre newsletter</h4>
+            <p class="text-lg lg:text-xl pb-4 lg:pb-8">Recevez nos dernières offres</p>
 
-        <div id="opt-in">
+            <div id="opt-in">
 
-          <form class="pb-4" action="">
-            
-            <input class="w-full py-2 rounded-lg text-lg pl-4" type="text" placeholder="Votre email">
-            <input type="submit" name="" id="" class="uppercase text-white bg-blue-500 hover:bg-blue-800 mt-4 py-2 px-6 rounded-lg" value="S'abonner">
+              <form class="pb-4" action="">
+                
+                <input class="w-full py-2 rounded-lg text-lg pl-4" type="text" placeholder="Votre email">
+                <input type="submit" name="" id="" class="uppercase text-white bg-blue-700 hover:bg-blue-500 mt-4 py-2 px-6 rounded-lg" value="S'abonner">
 
-          </form>
+              </form>
+
+            </div>
+
+          </div>
 
         </div>
-
-      </div>
 
     </div>
 
     <!---------------------------- MARGIN ---------------------------->
-    <div class="mx-4 md:mx-16 lg:mx-44">
+    <div class="md:mx-16 lg:mx-44 lg:py-20">
 
-      <div class="flex font-semibold h-44 text-center">
+      <div class="flex font-semibold h-56 text-center mx-4">
       
         <div class="m-auto">
 
-          <h4 class="text-4xl pb-2">Actualités</h4>
-          <p class="text-lg lg:text-xl">Découvrez nos dernières nouvelles</p>
+          <h4 class="text-4xl pb-2">Nos services</h4>
+          <p class="text-lg lg:text-xl">Des pros pour les pros</p>
 
         </div>
 
       </div>
 
       <!---------------------------- ARTICLES ---------------------------->
-      <div class="flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 md:gap-6 lg:grid-cols-3 lg:grid-rows-none">
+      <div class="flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 md:gap-6 lg:grid-cols-3 lg:grid-rows-none lg:pb-20">
 
         <!---------------------------- ARTICLES 1 ---------------------------->
-        <div id="product-card" class="flex flex-col items-center pb-10">
+        <div id="product-card" class="flex flex-col float-left pb-32 md:pb-10">
 
-          <div id="product-card-top" class="flex items-center w-full pb-6">
+          <div id="product-card-top" class="flex items-center pb-6">
 
-            <img class="hover:scale-110 transition ease-in delay-75 mx-auto" src="images/bg_blog3-360x240.jpg" alt="Article du blog Modulox numéro 1">
+            <img class="hover:scale-110 transition ease-in delay-75 h-60 w-full object-cover" src="images/pexels-kyle-loftus-2446721.jpg" alt="Article du blog Modulox numéro 1">
 
           </div>
 
-          <div id="product-card-bottom" class="w-full m-auto">
+          <div id="product-card-bottom" class="mx-4 md:mx-0">
 
-            <p class="uppercase text-red-500">Actualités</p>
-            <p class="text-lg font-bold py-2">Modulox lauréat du programme RSE « Platine »</p>
-            <p class="text-slate-400">Le Conseil Régional Nouvelle-Aquitaine a mis en place le Contrat d'Expérimentation pour le Développement Responsable de l'Emploi (PLATINE) qui a pour objet de financer les plans d'innovation sociale des entreprises (PME) locales en développement.
+            <p class="text-2xl font-bold py-2">Configuration</p>
+            <p class="text-slate-400">Nous configurons votre engin afin qu'il puisse vous offrir le maximum.
               <a href="#" class="text-blue-400 underline">Lire la suite</a>
             </p>
 
@@ -252,46 +251,77 @@
         </div>
 
         <!---------------------------- ARTICLES 2 ---------------------------->
-        <div id="product-card" class="flex flex-col items-center pb-10">
+        <div id="product-card" class="flex flex-col float-left pb-32 md:pb-10">
 
-          <div id="product-card-top" class="flex items-center w-full pb-6">
+          <div id="product-card-top" class="flex items-center pb-6">
 
-            <img class="hover:scale-110 transition ease-in delay-75 mx-auto" src="images/bg_blog2-360x240.jpg" alt="Article du blog Modulox numéro 2">
+            <img class="hover:scale-110 transition ease-in delay-75 h-60 w-full object-cover" src="images/pexels-rfstudio-3825582.jpg" alt="Article du blog Modulox numéro 1">
 
           </div>
 
-          <div id="product-card-bottom" class="w-full">
+          <div id="product-card-bottom" class="mx-4 md:mx-0">
 
-            <p class="uppercase text-red-500">Actualités</p>
-            <p class="text-lg font-bold py-2">Inauguration des nouveaux locaux de Modulox</p>
-            <p class="text-slate-400">La société Modulox inaugurera ses nouveaux locaux le 12 mars 2018 à Mérignac. Les clients, les fournisseurs et les partenaires de Modulox se retrouveront autour d'un cocktail dînatoire. Cet évènement est co-organisé par le Réseau.
+            <p class="text-2xl font-bold py-2">Entretien</p>
+            <p class="text-slate-400">Ne perdez pas en performance, maintenez votre engin au top de ses capacités.
               <a href="#" class="text-blue-400 underline">Lire la suite</a>
             </p>
 
           </div>
 
         </div>
-
+        
         <!---------------------------- ARTICLES 3 ---------------------------->
-        <div id="product-card" class="flex flex-col items-center pb-10">
+        <div id="product-card" class="flex flex-col float-left pb-32 md:pb-10">
 
-          <div id="product-card-top" class="flex items-center w-full pb-6">
+          <div id="product-card-top" class="flex items-center pb-6">
 
-            <img class="hover:scale-110 transition ease-in delay-75 mx-auto" src="images/bg_blog1-360x240.jpg" alt="Article du blog Modulox numéro 3">
+            <img class="hover:scale-110 transition ease-in delay-75 h-60 w-full object-cover" src="images/pexels-miguel-á-padriñán-3520665.jpg" alt="Article du blog Modulox numéro 1">
 
           </div>
 
-          <div id="product-card-bottom" class="w-full">
+          <div id="product-card-bottom" class="mx-4 md:mx-0">
 
-            <p class="uppercase text-red-500">Actualités</p>
-            <p class="text-lg font-bold py-2">Modulox signe avec un géant des matériaux composites</p>
-            <p class="text-slate-400">Ce contrat va permettre à un des leaders dans le domaine des matériaux composites pour le domaine aéronautique et spatial, de se doter d'un équipement de production de plaques de carbone, mises en forme, dédiées
+            <p class="text-2xl font-bold py-2">SAV</p>
+            <p class="text-slate-400">Travaillez l'esprit léger, avec nous votre robot est garanti 5 ans.
               <a href="#" class="text-blue-400 underline">Lire la suite</a>
             </p>
 
           </div>
 
         </div>
+
+      </div>
+
+    </div>
+
+    <!---------------------------- SECTION SOCIAL PROOF ---------------------------->
+    <div class="flex flex-col justify-center font-normal h-72 text-center bg-stone-100">
+          
+      <div class="flex flex-col my-auto mx-4 md:mx-16 lg:mx-44 text-black gap-y-6">
+
+        <h4 class="text-4xl pb-2">On nous fait confiance</h4>
+        
+        <div class="flex flex-row items-center justify-center">
+
+          <span style="color: green;">
+            <i class="fa-solid fa-star fa-xl"></i>
+          </span>
+          <span style="color: green;">
+            <i class="fa-solid fa-star fa-xl"></i>
+          </span>
+          <span style="color: green;">
+            <i class="fa-solid fa-star fa-xl"></i>
+          </span>
+          <span style="color: green;">
+            <i class="fa-solid fa-star fa-xl"></i>
+          </span>
+          <span style="color: green;">
+            <i class="fa-solid fa-star-half fa-xl"></i>
+          </span>
+
+        </div>
+
+        <p>Rating 4.5 sur StarPilot</p>
 
       </div>
 
@@ -302,25 +332,16 @@
   <!---------------------------- SECTION CONTACT ---------------------------->
   <section>
 
-    <div style="background-image: url(images/bg_contact.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;" class="flex font-bold">
+    <div class="flex font-bold relative">
+
+      <img src="images/pexels-david-mielimonka-8441677.jpg" class="w-full h-full brightness-50 object-cover absolute z-0" alt="">
         
-      <div class="my-auto mx-4 md:mx-16 lg:mx-44 pt-20 text-white lg:flex lg:gap-x-10">
+      <div class="my-auto mx-4 md:mx-16 lg:mx-44 pt-20 text-white lg:flex lg:gap-x-10 z-10">
         
         <div class="lg:w-1/2">
         
-          <h4 class="text-2xl md:text-3xl pb-2">Restons en contact</h4>
-          <p class="text-lg md:text-xl pb-4 lg:pb-10 text-gray-300 font-semibold">Nous sommes heureux de vous proposer les meilleures solutions pour votre entreprise. Contactez nous pour plus d'informations.</p>
-          
-          <h4 class="text-2xl md:text-3xl pb-2"><i class="fa-solid fa-location-dot pr-4"></i>Nous trouver au bureau</h4>
-          <p class="text-base md:text-lg pb-4 lg:pb-10 text-gray-300 font-semibold">10 - 12 rue Joule 33700 Mérignac - France</p>
-          
-          <h4 class="text-2xl md:text-3xl pb-2"><i class="fa-solid fa-mobile-button pr-4"></i>N'hésitez pas à nous appeler</h4>
-          <p class="text-base md:text-lg pb-4 lg:pb-10 text-gray-300 font-semibold">Maurice Trucmuche 06 01 02 03 04 Lundi - Vendredi, 8:00-22:00</p>
-
-          <h4 class="text-2xl md:text-3xl">Suivez-nous</h4>
-
           <!---------------------------- SOCIAL ---------------------------->
-          <div id="social-icons" class="flex flex-row justify-center lg:justify-start py-10 lg:py-16 lg:ml-2 gap-x-10 lg:gap-x-20">
+          <div id="social-icons" class="flex flex-row justify-center lg:justify-start pb-16 lg:py-16 lg:ml-2 gap-x-10 lg:gap-x-20">
 
             <a href="" class="hover:scale-110 transition ease-in delay-75"></q><i class="fa-brands fa-facebook fa-2xl lg:scale-150"></i></a>
             <a href="" class="hover:scale-110 transition ease-in delay-75"><i class="fa-brands fa-instagram fa-2xl lg:scale-150"></i></a>
@@ -328,12 +349,18 @@
             <a href="" class="hover:scale-110 transition ease-in delay-75"><i class="fa-brands fa-youtube fa-2xl lg:scale-150"></i></a>
 
           </div>
+          
+          <h4 class="text-xl md:text-3xl pb-2"><i class="fa-solid fa-location-dot pr-4"></i>Adresse</h4>
+          <p class="text-base md:text-lg pb-4 lg:pb-10 text-gray-300 font-semibold">10 - 12 rue Joule 33700 Mérignac - France</p>
+          
+          <h4 class="text-xl md:text-3xl pb-2"><i class="fa-solid fa-mobile-button pr-4"></i>Contact</h4>
+          <p class="text-base md:text-lg pb-4 lg:pb-10 text-gray-300 font-semibold">Maurice Trucmuche 06 01 02 03 04 Lundi - Vendredi, 8:00-22:00</p>
 
         </div>
 
         <div class="lg:w-1/2">
         
-          <h4 class="text-2xl md:text-3xl bg-cyan-500 py-4 pl-4 w-72 md:w-5/6 mx-auto rounded-lg shadow-xl relative top-8 lg:-top-8">Contactez-nous</h4>
+          <h4 class="text-2xl md:text-3xl bg-cyan-500 py-4 pl-4 w-72 md:w-5/6 mx-auto rounded-lg shadow-xl relative top-8 lg:-top-8">Ecrivez-nous</h4>
 
           <!---------------------------- CONTACT FORM ---------------------------->
           <div id="contact-form" class="bg-white pt-16 p-8 mb-14 lg:-mt-16 rounded-lg">
@@ -343,7 +370,7 @@
               <input class="w-full py-6 border-b border-solid border-black" type="text" placeholder="Votre nom">
               <input class="w-full py-6 border-b border-solid border-black" type="text" placeholder="Votre email (obligatoire)" required>
               <input class="w-full py-6 border-b border-solid border-black" type="text" placeholder="Objet">
-              <textarea class="w-full h-80 py-6 border-b border-solid border-black" placeholder="Votre message"></textarea>
+              <textarea class="w-full h-44 py-6 border-b border-solid border-black" placeholder="Votre message"></textarea>
               
               <div class="flex flex-col items-start lg:flex-row">
               
@@ -362,10 +389,12 @@
 
       </div>
 
+    </div>
+
   </section>
 
   <!---------------------------- FOOTER ---------------------------->
-  <footer class="bg-black h-44 py-6 md:px-20 flex flex-col justify-center lg:items-start text-sm">
+  <footer class="bg-black h-44 py-6 md:px-20 flex flex-col justify-center lg:items-center text-sm">
     
     <ul class="flex flex-row uppercase text-white items-center justify-center gap-y-2 gap-x-4 flex-wrap mx-4 lg:mx-24">
       
